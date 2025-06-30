@@ -7,13 +7,21 @@ import tesla from '../assets/tesla.png'
 import logo from '../assets/logo.webp'
 import tesla_image from '../assets/tesla.jpg'
 import {IoClose} from "react-icons/io5"
-import Navbar from "../components/navbar";
+
 
 
 const Homepage = () => {
-  
+
   return (
     <>
+      <div style={{padding: '2rem', backgroundColor: '#fff', minHeight: '50vh'}}>
+        <h1 style={{color: '#8B6F47', textAlign: 'center', fontSize: '2rem'}}>
+          Welcome to InteriorCraft
+        </h1>
+        <p style={{textAlign: 'center', color: '#666', marginTop: '1rem'}}>
+          Modern Interior Design for Home & Office
+        </p>
+      </div>
 
       <div className="hero_wrap">
         <div className="hero">
